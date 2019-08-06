@@ -30,7 +30,7 @@ export default class TourList extends Component {
     {
      tours.map(tour => (<Tour key={tour.id} tour={tour} removeTour={this.removeTour}></Tour>))
     }
-   </section>
+   </section> 
   );
  }
 }
